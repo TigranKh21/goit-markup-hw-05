@@ -836,6 +836,11 @@ img {
   margin-bottom: 16px;
 }
 
+.modal-textarea:hover,
+.modal-textareat:focus {
+  border-color: var(--iris);
+}
+
 .label-text {
   display: block;
   color: var(--lightslate, #8e8f99);
@@ -850,6 +855,7 @@ img {
 }
 
 .modal-form {
+  margin-bottom: 8px;
 }
 
 .modal-btn {
@@ -930,10 +936,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .modal-terms svg {
+.modal-check:checked + .check-icon svg {
   fill: var(--ocean);
 }
-.modal-check:checked + .modal-terms span {
+.modal-check:checked + .check-icon span {
   background-color: var(--iris);
   border: none;
 }
