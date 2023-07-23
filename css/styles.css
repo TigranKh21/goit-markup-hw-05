@@ -895,10 +895,6 @@ img {
   text-decoration-line: underline;
 }
 
-.check-box {
-  display: inline-flex;
-}
-
 .modal-field {
   position: relative;
   margin-bottom: 8px;
