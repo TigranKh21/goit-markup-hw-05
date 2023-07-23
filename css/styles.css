@@ -807,6 +807,7 @@ img {
 }
 
 .modal-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   height: 120px;
@@ -815,7 +816,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
   outline: transparent;
@@ -895,9 +895,17 @@ img {
   text-decoration-line: underline;
 }
 
+.check-box {
+  display: inline-flex;
+}
+
 .modal-field {
   position: relative;
   margin-bottom: 8px;
+}
+
+.modal-check-box {
+  margin-bottom: 24px;
 }
 
 .input-field {
@@ -937,6 +945,7 @@ img {
 .modal-check:checked + .modal-terms span {
   background-color: var(--ocean);
   border: none;
+  fill: var(--white);
 }
 
 .modal-check:checked + .modal-terms svg {
