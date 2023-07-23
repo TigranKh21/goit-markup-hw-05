@@ -834,6 +834,7 @@ img {
 
 .text-area {
   margin-bottom: 16px;
+  border: none;
 }
 
 .modal-textarea:hover,
