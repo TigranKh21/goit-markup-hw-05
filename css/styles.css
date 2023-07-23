@@ -922,7 +922,13 @@ img {
   fill: transparent;
 }
 
-.modal-terms span {
+.modal-terms {
+  display: block;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.check-box {
   display: inline-flex;
   align-items: center;
   justify-content: center;
