@@ -945,9 +945,9 @@ img {
 .modal-check:checked + .modal-terms span {
   background-color: var(--ocean);
   border: none;
-  fill: var(--white);
+  fill: var(--cloud);
 }
 
 .modal-check:checked + .modal-terms svg {
-  fill: var(--white);
+  fill: var(--cloud);
 }
