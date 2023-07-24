@@ -837,7 +837,7 @@ img {
 }
 
 .modal-textarea:hover,
-.modal-textareat:focus {
+.modal-textarea:focus {
   border-color: var(--iris);
 }
 
@@ -850,10 +850,11 @@ img {
   margin-bottom: 4px;
 }
 
-.label-text-comment:focus {
+/* .label-text-comment:focus,
+.label-text-comment:hover {
   border-color: var(--iris);
 }
-
+ */
 .modal-form {
   margin-bottom: 8px;
 }
